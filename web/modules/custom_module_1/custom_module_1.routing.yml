@@ -1,0 +1,6 @@
+custom_module_1:
+path: /custom_module_1/world  - (The url path)  
+defaults:
+_controller: Drupal\custom_module_1\Controller\HelloWorldController::hello  - (the namespace and the method that the controller will call)  
+requirements:
+_permission: 'access content' - (The permissions required for the module to successfully perform its function)
